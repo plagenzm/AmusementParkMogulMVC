@@ -1,0 +1,49 @@
+/* _content/AmusementParkMogul2/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-rlk00i9lcf] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-rlk00i9lcf] {
+  color: #0077cc;
+}
+
+.btn-primary[b-rlk00i9lcf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-rlk00i9lcf], .nav-pills .show > .nav-link[b-rlk00i9lcf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-rlk00i9lcf] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-rlk00i9lcf] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-rlk00i9lcf] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-rlk00i9lcf] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-rlk00i9lcf] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

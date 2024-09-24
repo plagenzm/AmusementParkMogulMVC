@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|c:\\users\\plage\\source\\repos\\amusementparkmogul2\\amusementparkmogul2\\controllers\\investorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|solutionrelative:amusementparkmogul2\\controllers\\investorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|c:\\users\\plage\\source\\repos\\amusementparkmogul2\\amusementparkmogul2\\controllers\\gentleridecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|solutionrelative:amusementparkmogul2\\controllers\\gentleridecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|c:\\users\\plage\\source\\repos\\amusementparkmogul2\\amusementparkmogul2\\models\\investor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|solutionrelative:amusementparkmogul2\\models\\investor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|c:\\users\\plage\\source\\repos\\amusementparkmogul2\\amusementparkmogul2\\data\\datastoreinvestors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|solutionrelative:amusementparkmogul2\\data\\datastoreinvestors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|c:\\users\\plage\\source\\repos\\amusementparkmogul2\\amusementparkmogul2\\models\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|solutionrelative:amusementparkmogul2\\models\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|c:\\users\\plage\\source\\repos\\amusementparkmogul2\\amusementparkmogul2\\models\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|solutionrelative:amusementparkmogul2\\models\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|c:\\users\\plage\\source\\repos\\amusementparkmogul2\\amusementparkmogul2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68EFF0-192F-407B-AC7B-D2AC1755B63F}|AmusementParkMogul2\\AmusementParkMogul2.csproj|solutionrelative:amusementparkmogul2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvestorController.cs",
+              "DocumentMoniker": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Controllers\\InvestorController.cs",
+              "RelativeDocumentMoniker": "AmusementParkMogul2\\Controllers\\InvestorController.cs",
+              "ToolTip": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Controllers\\InvestorController.cs",
+              "RelativeToolTip": "AmusementParkMogul2\\Controllers\\InvestorController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:39:29.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GentlerideController.cs",
+              "DocumentMoniker": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Controllers\\GentlerideController.cs",
+              "RelativeDocumentMoniker": "AmusementParkMogul2\\Controllers\\GentlerideController.cs",
+              "ToolTip": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Controllers\\GentlerideController.cs",
+              "RelativeToolTip": "AmusementParkMogul2\\Controllers\\GentlerideController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAswDQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:21:23.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Investor.cs",
+              "DocumentMoniker": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Models\\Investor.cs",
+              "RelativeDocumentMoniker": "AmusementParkMogul2\\Models\\Investor.cs",
+              "ToolTip": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Models\\Investor.cs",
+              "RelativeToolTip": "AmusementParkMogul2\\Models\\Investor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:33:37.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataStoreInvestors.cs",
+              "DocumentMoniker": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Data\\DataStoreInvestors.cs",
+              "RelativeDocumentMoniker": "AmusementParkMogul2\\Data\\DataStoreInvestors.cs",
+              "ToolTip": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Data\\DataStoreInvestors.cs",
+              "RelativeToolTip": "AmusementParkMogul2\\Data\\DataStoreInvestors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:32:18.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Program.cs",
+              "RelativeDocumentMoniker": "AmusementParkMogul2\\Program.cs",
+              "ToolTip": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Program.cs",
+              "RelativeToolTip": "AmusementParkMogul2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:09:50.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Models\\Shop.cs",
+              "RelativeDocumentMoniker": "AmusementParkMogul2\\Models\\Shop.cs",
+              "ToolTip": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Models\\Shop.cs",
+              "RelativeToolTip": "AmusementParkMogul2\\Models\\Shop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:00:39.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Attraction.cs",
+              "DocumentMoniker": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Models\\Attraction.cs",
+              "RelativeDocumentMoniker": "AmusementParkMogul2\\Models\\Attraction.cs",
+              "ToolTip": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\Models\\Attraction.cs",
+              "RelativeToolTip": "AmusementParkMogul2\\Models\\Attraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:59:41.004Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
