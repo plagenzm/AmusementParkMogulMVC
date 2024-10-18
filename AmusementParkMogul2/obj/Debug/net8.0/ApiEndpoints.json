@@ -672,6 +672,16 @@
     "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ParkController",
     "Method": "UpdateConfirmation",
     "RelativePath": "ticket/confirmation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ParkController",
+    "Method": "UpdateConfirmation",
+    "RelativePath": "ticket/confirmation",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

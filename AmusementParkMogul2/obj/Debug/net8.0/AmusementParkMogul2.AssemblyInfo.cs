@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmusementParkMogul2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfcadb449249cb07362d107f7edc7436980e7163")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ce5e81ef06d647281e0c04a3b60e784d75b8096")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmusementParkMogul2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmusementParkMogul2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
