@@ -1,0 +1,29 @@
+﻿@model AmusementParkMogul2.Models.Park
+
+@{
+
+    ViewData["Title"] = "Confirmation";
+
+
+}
+
+
+<h2>Confirmation</h2>
+
+    <input type="hidden" id="randomNumberField" name="randomNumber" />
+
+    <button type="button" name="randomNumber" id="generateButton" onclick="generateAndSubmit()">Generate and Submit</button>
+
+<div>
+    <h2>The results are in! Your first group of guests will be @Model.Guests people!</h2>
+    <p>Starting Cash Breakdown:</p>
+    <p>Ticket Price: @Model.TicketPrice
+    <p>Guests: @Model.Guests</p> 
+    <p>Total Starting Cash including investment dollars, ticket price and guests: @Model.Cash.ToString("C")</p>
+</div>
+
+@using (Html.BeginForm("Create", "Rollercoaster", FormMethod.Post))
+
+{
+    @Html.ActionLink("Let's Build a Ride!", "Create", "Rollercoaster", null, new { @class = "btn btn-primary" })
+}

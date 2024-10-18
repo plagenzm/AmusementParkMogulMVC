@@ -1,0 +1,884 @@
+[
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.CashApiController",
+    "Method": "Index",
+    "RelativePath": "api/CashApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.CashApiController",
+    "Method": "Details",
+    "RelativePath": "api/CashApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.CashApiController",
+    "Method": "UpdateCash",
+    "RelativePath": "api/CashApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "totalCash",
+        "Type": "AmusementParkMogul2.Models.Cash",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.GentlerideApiController",
+    "Method": "AddItem",
+    "RelativePath": "api/GentlerideApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newGentleride",
+        "Type": "AmusementParkMogul2.Models.Gentleride",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.GentlerideApiController",
+    "Method": "Read",
+    "RelativePath": "api/GentlerideApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.GentlerideApiController",
+    "Method": "Delete",
+    "RelativePath": "api/GentlerideApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.GentlerideApiController",
+    "Method": "Update",
+    "RelativePath": "api/GentlerideApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedGentleRide",
+        "Type": "AmusementParkMogul2.Models.Gentleride",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.GentlerideApiController",
+    "Method": "Details",
+    "RelativePath": "api/GentlerideApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.InvestorApiController",
+    "Method": "Read",
+    "RelativePath": "api/InvestorApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.InvestorApiController",
+    "Method": "Details",
+    "RelativePath": "api/InvestorApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.InvestorApiController",
+    "Method": "Update",
+    "RelativePath": "api/InvestorApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "chosenInvestor",
+        "Type": "AmusementParkMogul2.Models.Investor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ParkApiController",
+    "Method": "Index",
+    "RelativePath": "api/ParkApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ParkApiController",
+    "Method": "Details",
+    "RelativePath": "api/ParkApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ParkApiController",
+    "Method": "Update",
+    "RelativePath": "api/ParkApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParkId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "chosenPark",
+        "Type": "AmusementParkMogul2.Models.Park",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ParkApiController",
+    "Method": "Create",
+    "RelativePath": "api/ParkApi/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPark",
+        "Type": "AmusementParkMogul2.Models.Park",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.RollercoasterApiController",
+    "Method": "AddItem",
+    "RelativePath": "api/RollercoasterApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newRollercoaster",
+        "Type": "AmusementParkMogul2.Models.Rollercoaster",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.RollercoasterApiController",
+    "Method": "Read",
+    "RelativePath": "api/RollercoasterApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.RollercoasterApiController",
+    "Method": "Delete",
+    "RelativePath": "api/RollercoasterApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.RollercoasterApiController",
+    "Method": "Update",
+    "RelativePath": "api/RollercoasterApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedRollercoaster",
+        "Type": "AmusementParkMogul2.Models.Rollercoaster",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.RollercoasterApiController",
+    "Method": "Details",
+    "RelativePath": "api/RollercoasterApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ShopApiController",
+    "Method": "Index",
+    "RelativePath": "api/ShopApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ShopApiController",
+    "Method": "AddItem",
+    "RelativePath": "api/ShopApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newShop",
+        "Type": "AmusementParkMogul2.Models.Shop",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ShopApiController",
+    "Method": "Details",
+    "RelativePath": "api/ShopApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ShopApiController",
+    "Method": "Delete",
+    "RelativePath": "api/ShopApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Api.ShopApiController",
+    "Method": "Update",
+    "RelativePath": "api/ShopApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedShop",
+        "Type": "AmusementParkMogul2.Models.Shop",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.CashController",
+    "Method": "UpdateAsync",
+    "RelativePath": "cash/update",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.CashController",
+    "Method": "UpdateCash",
+    "RelativePath": "cash/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CashID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalCash",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestmentTotal",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ParkController",
+    "Method": "Create",
+    "RelativePath": "create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ParkController",
+    "Method": "Create",
+    "RelativePath": "create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParkID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Theme",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TicketPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cash",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Guests",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "CashId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestmentDollars",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.GentlerideController",
+    "Method": "Create",
+    "RelativePath": "gentleride/create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.GentlerideController",
+    "Method": "Create",
+    "RelativePath": "gentleride/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AttractionID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AttractionCost",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.RollercoasterController",
+    "Method": "Create",
+    "RelativePath": "rollercoaster/create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.RollercoasterController",
+    "Method": "Create",
+    "RelativePath": "rollercoaster/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Material",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AttractionID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AttractionCost",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ShopController",
+    "Method": "Create",
+    "RelativePath": "shop/create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ShopController",
+    "Method": "Create",
+    "RelativePath": "shop/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AttractionID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AttractionCost",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ParkController",
+    "Method": "UpdateConfirmation",
+    "RelativePath": "ticket/confirmation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParkID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Theme",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TicketPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cash",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Guests",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "CashId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestmentDollars",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "randomNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ParkController",
+    "Method": "Update",
+    "RelativePath": "ticket/update",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.ParkController",
+    "Method": "Update",
+    "RelativePath": "ticket/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParkID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Theme",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TicketPrice",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cash",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Guests",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "CashId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestmentDollars",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "randomNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.InvestorController",
+    "Method": "UpdateAsync",
+    "RelativePath": "update",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmusementParkMogul2.Controllers.Mvc.InvestorController",
+    "Method": "Update",
+    "RelativePath": "update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestorID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Picture",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvestmentTotal",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Chosen",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParkId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParkRatingRequirement",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

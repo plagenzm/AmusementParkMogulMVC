@@ -5,11 +5,11 @@ using AmusementParkMogul2.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.OutputCaching;
 
-namespace AmusementParkMogul2.Controllers
+namespace AmusementParkMogul2.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RollercoasterController : ControllerBase
+    public class RollercoasterApiController : ControllerBase
     {
         [AllowAnonymous]
         [HttpPost]
@@ -20,6 +20,8 @@ namespace AmusementParkMogul2.Controllers
 
                 return BadRequest();
             }
+
+            
 
             DataStoreRollercoaster.Rollercoaster.Add(newRollercoaster);
 
@@ -58,6 +60,7 @@ namespace AmusementParkMogul2.Controllers
             rollercoaster.Size = updatedRollercoaster.Size;
             rollercoaster.Material = updatedRollercoaster.Material;
             rollercoaster.Color = updatedRollercoaster.Color;
+            rollercoaster.AttractionCost = updatedRollercoaster.AttractionCost;
 
 
 

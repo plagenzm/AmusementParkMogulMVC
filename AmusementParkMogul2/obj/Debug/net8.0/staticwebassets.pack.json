@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\img\\ferris.png",
+      "PackagePath": "staticwebassets\\img\\ferris.png"
+    },
+    {
+      "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\img\\home-image.png",
+      "PackagePath": "staticwebassets\\img\\home-image.png"
+    },
+    {
+      "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\img\\park-adventure.png",
+      "PackagePath": "staticwebassets\\img\\park-adventure.png"
+    },
+    {
+      "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\img\\park-horror.png",
+      "PackagePath": "staticwebassets\\img\\park-horror.png"
+    },
+    {
+      "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\img\\park-wild.png",
+      "PackagePath": "staticwebassets\\img\\park-wild.png"
+    },
+    {
+      "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\img\\trixie.png",
+      "PackagePath": "staticwebassets\\img\\trixie.png"
+    },
+    {
       "Id": "C:\\Users\\plage\\source\\repos\\AmusementParkMogul2\\AmusementParkMogul2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

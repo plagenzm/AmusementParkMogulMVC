@@ -1,0 +1,39 @@
+﻿@model AmusementParkMogul2.Models.Shop
+
+@{
+    ViewData["Title"] = "Create Shop";
+}
+
+
+<h2>Build a Shop</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@using (Html.BeginForm("Create", "Shop", FormMethod.Post))
+{
+
+    <div class="form-group">
+        <label for="Name">Shop Name</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Enter Shop Name" })
+        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+
+            <label for="Size">Size</label>
+            <select name="Size" id="SizeSelect" class="form-select form-select-lg mb-3 ">
+                <option selected>Pick the ride size:</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            @Html.ValidationMessageFor(m => m.Size, "", new { @class = "text-danger" })
+     </div>
+
+
+    <button type="submit" class="btn btn-primary">Build Shop</button>
+
+}

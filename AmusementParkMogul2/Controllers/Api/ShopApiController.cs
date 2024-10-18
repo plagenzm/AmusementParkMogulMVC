@@ -4,19 +4,22 @@ using Microsoft.AspNetCore.Mvc;
 using AmusementParkMogul2.Data;
 using Microsoft.AspNetCore.Authorization;
 
-namespace AmusementParkMogul2.Controllers;
+namespace AmusementParkMogul2.Controllers.Api;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ShopController : ControllerBase
+public class ShopApiController : ControllerBase
 {
+
     [AllowAnonymous]
     [HttpGet]
-    public IActionResult Read()
+    public IActionResult Index()
     {
         var shops = DataStoreShop.Shop;
         return Ok(shops);
     }
+
+
 
     [AllowAnonymous]
     [HttpGet("{id}")]
@@ -63,7 +66,7 @@ public class ShopController : ControllerBase
 
         DataStoreShop.Shop.Remove(shop);
 
-        return Ok(shop); 
+        return Ok(shop);
     }
 
     [AllowAnonymous]

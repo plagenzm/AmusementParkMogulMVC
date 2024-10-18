@@ -1,0 +1,49 @@
+﻿@model List<AmusementParkMogul2.Models.Investor>
+
+@{
+    ViewData["Title"] = "Investors";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Investors</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Investor</th>
+                <th>Cash Investment</th>
+                <th>Park Rating Requirement</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var investor in Model)
+            {
+                <tr>
+                    <td>@investor.InvestorID</td>
+                    <td>@investor.Name</td>
+                    <td>@investor.InvestmentTotal</td>
+                    <td>@investor.ParkRatingRequirement</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        @foreach (var investor in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card" data-id="@investor.InvestorID" onclick="updateRecord(@investor.InvestorID)">
+                    <img src="@investor.Picture" class="card-img-top" alt="@investor.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@investor.Name</h5>
+                        <p class="card-text">@investor.InvestmentTotal.ToString("C")</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

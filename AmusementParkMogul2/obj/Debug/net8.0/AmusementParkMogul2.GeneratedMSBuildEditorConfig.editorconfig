@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\plage\source\repos\AmusementParkMogul2\AmusementParkMogul2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Cash/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Cash/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzaFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Gentleride/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VudGxlcmlkZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Gentleride/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VudGxlcmlkZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,12 +42,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Investor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Investor/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0b3JcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Park/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Park/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Park/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Park/UpdateConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya1xVcGRhdGVDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Rollercoaster/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sbGVyY29hc3RlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Rollercoaster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sbGVyY29hc3RlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Shop/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/plage/source/repos/AmusementParkMogul2/AmusementParkMogul2/Views/_ViewImports.cshtml]

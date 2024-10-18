@@ -5,11 +5,11 @@ using AmusementParkMogul2.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.OutputCaching;
 
-namespace AmusementParkMogul2.Controllers
+namespace AmusementParkMogul2.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GentlerideController : ControllerBase
+    public class GentlerideApiController : ControllerBase
     {
 
         [AllowAnonymous]
@@ -57,7 +57,7 @@ namespace AmusementParkMogul2.Controllers
 
             gentleRide.Name = updatedGentleRide.Name;
             gentleRide.Size = updatedGentleRide.Size;
- 
+
             return Ok(updatedGentleRide);
         }
 

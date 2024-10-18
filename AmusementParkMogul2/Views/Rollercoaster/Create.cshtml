@@ -1,0 +1,62 @@
+﻿@model AmusementParkMogul2.Models.Rollercoaster
+
+@{
+    ViewData["Title"] = "Build Rollercoaster";
+}
+
+
+<h2>Build a Rollercoaster</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@using (Html.BeginForm("Create", "Rollercoaster", FormMethod.Post))
+{
+
+    <div class="form-group">
+        <label for="Name">Rollercoaster Name</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Enter Rollercoaster Name" })
+        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="Size">Size</label>
+        <select name="Size" id="SizeSelect" class="form-select form-select-lg mb-3 ">
+            <option selected>Pick the ride size:</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+        </select>
+        @Html.ValidationMessageFor(m => m.Size, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="Color">Color</label>
+
+        <select name="Color" id="ColorSelect" class="form-select form-select-lg mb-3 ">
+            <option selected>Pick the ride color:</option>
+            <option value="Black">Black</option>
+            <option value="Blue">Blue</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        @Html.ValidationMessageFor(m => m.Color, "", new { @class = "text-danger" })
+    </div>
+
+
+
+
+    <div class="form-group">
+        <label for="Material">Material</label>
+        <select name="Material" id="MaterialSelect" class="form-select form-select-lg mb-3 ">
+            <option selected>Pick the ride material:</option>
+            <option value="Wood">Wood</option>
+            <option value="Steel">Steel</option>
+        </select>
+        @Html.ValidationMessageFor(m => m.Material, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Build Ride</button>
+
+}

@@ -5,8 +5,14 @@
         public int InvestorID { get; set; }
         public string Name { get; set; }
 
+        public string Picture { get; set; }
+
         public double InvestmentTotal { get; set; }
 
         public bool Chosen { get; set; }
+
+        public int ParkId { get; set; }
+
+        public int ParkRatingRequirement { get; set; }
     }
 }

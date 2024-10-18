@@ -1,0 +1,38 @@
+﻿@model List<AmusementParkMogul2.Models.Rollercoaster>
+
+@{
+    ViewData["Title"] = "List of Rollercoasters";
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Rollercoaster</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Rollercoasters</th>
+                <th>Size</th>
+                <th>Color</th>
+                <th>Material</th>
+                <th>Purchase Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rollercoaster in Model)
+            {
+                <tr>
+                    <td>@rollercoaster.AttractionID</td>
+                    <td>@rollercoaster.Name</td>
+                    <td>@rollercoaster.Size</td>
+                    <td>@rollercoaster.Color</td>
+                    <td>@rollercoaster.Material</td>
+                    <td>@rollercoaster.AttractionCost.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    
+</div>

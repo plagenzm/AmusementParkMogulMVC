@@ -1,0 +1,27 @@
+﻿@model List<AmusementParkMogul2.Models.Cash>
+
+@{
+    ViewData["Title"] = "Cash";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cash Summary</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Investment Cash</th>
+                <th>Cash Remaining</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cash in Model)
+            {
+                <tr>
+                    <td>@cash.InvestmentTotal.ToString("C")</td>
+                    <td>@cash.TotalCash.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

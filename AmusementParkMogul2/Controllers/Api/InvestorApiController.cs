@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 using AmusementParkMogul2.Data;
 using Microsoft.AspNetCore.Authorization;
 
-namespace AmusementParkMogul2.Controllers
+namespace AmusementParkMogul2.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class InvestorController : ControllerBase
+    public class InvestorApiController : ControllerBase
     {
         [AllowAnonymous]
         [HttpGet]
@@ -37,6 +37,7 @@ namespace AmusementParkMogul2.Controllers
         [HttpPut("{id}")]
         public ActionResult Update(int id, Investor chosenInvestor)
         {
+
             var investor = DataStoreInvestor.Investor.FirstOrDefault(i => i.InvestorID == id);
 
             if (investor == null)
@@ -47,7 +48,20 @@ namespace AmusementParkMogul2.Controllers
             investor.Chosen = chosenInvestor.Chosen;
 
 
-            return Ok(chosenInvestor);
+            var park = DataStorePark.Park.FirstOrDefault(p => p.ParkID == chosenInvestor.ParkId);
+
+
+            if (park == null)
+            {
+                return BadRequest("Park not found");
+            }
+
+
+
+            park.TicketPrice = (int)chosenInvestor.InvestmentTotal;
+
+
+            return Ok(new { Investor = chosenInvestor, Park = park });
         }
     }
 }

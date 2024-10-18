@@ -6,10 +6,24 @@ namespace AmusementParkMogul2.Data
     {
         public static List<Shop> Shop { get; set; } = new List<Shop>
         {
-            new Shop { AttractionID = 1, Name = "Balloon Shop 1", Size = "medium"},
-            new Shop { AttractionID = 2, Name = "Fry Stall 1", Size = "medium"},
-            new Shop { AttractionID = 3, Name = "Toy Shop 1", Size = "small"},
-            new Shop { AttractionID = 4, Name = "Burger Shop 1", Size = "medium"}
+            //new Shop { AttractionID = 1, Name = "Balloon Shop 1", Size = "medium"},
+            //new Shop { AttractionID = 2, Name = "Fry Stall 1", Size = "medium"},
+            //new Shop { AttractionID = 3, Name = "Toy Shop 1", Size = "small"},
+            //new Shop { AttractionID = 4, Name = "Burger Shop 1", Size = "medium"}
         };
+
+        public static void AddShop(Shop newShop)
+        {
+            if (Shop.Count == 0)
+            {
+                newShop.AttractionID = 1;
+            }
+            else
+            {
+                newShop.AttractionID = Shop.Max(r => r.AttractionID) + 1;
+            }
+
+            Shop.Add(newShop);
+        }
     }
 }

@@ -4,5 +4,7 @@
     {
         public int AttractionID { get; set; }
         public string Name { get; set; }
+
+        public double AttractionCost { get; set; }
     }
 }

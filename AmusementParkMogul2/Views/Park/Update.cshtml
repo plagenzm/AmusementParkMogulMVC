@@ -1,0 +1,30 @@
+﻿@model AmusementParkMogul2.Models.Park
+
+@{
+
+    ViewData["Title"] = "Generate First Group of Guests";
+
+
+}
+
+
+<h2>Click the button to generate a random number</h2>
+
+
+
+<form id="randomNumberForm" method="post" action="Update">
+    <input type="hidden" id="randomNumberField" name="randomNumber" />
+
+    <button type="button" name="randomNumber" id="generateButton" onclick="generateAndSubmit()">Generate and Submit</button>
+</form>
+
+<script>
+    function generateAndSubmit() {
+        var randomNumber = Math.floor(Math.random() * 300) + 50;
+
+        document.getElementById("randomNumberField").value = randomNumber;
+
+        document.getElementById("randomNumberForm").submit();
+
+    }
+</script>

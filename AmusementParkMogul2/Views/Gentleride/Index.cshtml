@@ -1,0 +1,31 @@
+﻿@model List<AmusementParkMogul2.Models.Gentleride>
+
+@{
+    ViewData["Title"] = "List of Gentle Rides";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Gentleride</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Gentle Rides</th>
+                <th>Size</th>
+                <th>Purchase Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var gentleride in Model)
+            {
+                <tr>
+                    <td>@gentleride.AttractionID</td>
+                    <td>@gentleride.Name</td>
+                    <td>@gentleride.Size</td>
+                    <td>@gentleride.AttractionCost.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

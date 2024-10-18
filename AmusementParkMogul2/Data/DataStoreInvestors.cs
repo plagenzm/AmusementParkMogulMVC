@@ -6,9 +6,10 @@ namespace AmusementParkMogul2.Data
     {
         public static List<Investor> Investor { get; set; } = new List<Investor>
         {
-            new Investor { InvestorID = 1, Name = "Trixie Tilt", InvestmentTotal = 5000000, Chosen = false},
-            new Investor { InvestorID = 2, Name = "Ferris Whirlwind", InvestmentTotal = 250000, Chosen = true}
+            new Investor { InvestorID = 1, Name = "Trixie Tilt", Picture = "img/trixie.png", InvestmentTotal = 5000000, Chosen = false, ParkRatingRequirement = 75},
+            new Investor { InvestorID = 2, Name = "Ferris Whirlwind", Picture = "img/ferris.png", InvestmentTotal = 250000, Chosen = false, ParkRatingRequirement = 50}
 
         };
+
     }
 }

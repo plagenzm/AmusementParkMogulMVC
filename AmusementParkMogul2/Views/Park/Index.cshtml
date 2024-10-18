@@ -1,0 +1,36 @@
+﻿@model List<AmusementParkMogul2.Models.Park>
+
+@{
+    ViewData["Title"] = "Create Park";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Park</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Park</th>
+                <th>Theme</th>
+                <th>Guests</th>
+                <th>Starting Cash</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var park in Model)
+            {
+                <tr>
+                    <td>@park.ParkID</td>
+                    <td>@park.Name</td>
+                    <td>@park.Theme</td>
+                    <td>@park.Guests</td>
+                    <td>@park.Cash.ToString("C")</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
